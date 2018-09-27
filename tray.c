@@ -40,6 +40,7 @@ void init() {
 }
 
 int main(int argc, char** argv) {
+  setbuf(stdout, NULL);
   init();
   int menu_count = 0;
   cJSON* root = NULL;
